@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script>
+    for (let k = 0; k <10; k++) {
+    document.write("this is: " + (k+1) + " step of for loop <br/>");
+    console.log("this is: " + (k) + " step of for loop");
+    }
+    let sum = 0;
+    let cnt = 0;
+    while(++cnt < 5){
+        sum += cnt;
+    }
+    document.write("sum is: " + sum + "<br/>");
+    while(true){
+        sum*=cnt;
+        if(sum>50){
+            console.log("counter " + cnt);
+            break;
+        }
+    }
+    document.write("sum is: " + sum + "<br/>");
+  </script>
+</head>
+<body>
+
+</body>
+</html>
