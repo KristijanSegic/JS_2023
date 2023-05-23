@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script>
+    function compareTwoNumbers(num1, num2){
+      if(typeof(num1).isPrototypeOf(Number) && typeof(num2).isPrototypeOf(Number)){
+        if (num1>=num2){
+          console.log("veći je prvi broj!");
+        } else {
+          console.log("veći je drugi broj!")
+        }
+      } else {
+        console.log("nisu brojebi - nemoguća komparacija!")
+      }
+    }
+    compareTwoNumbers(25,true);
+
+    //napraviti funkciju - ime prezime (unos korisnika), preformulirati u ascii vrijednosti te iste upisati u dokument,
+    // ne unositi brojeve niti posebne znakove -.,"'!/(){}šćžđč
+    // u input postaviti zarez izmedu imena i prezimena, vraccati natrag ako nije ispunio
+  </script>
+</head>
+<body>
+
+</body>
+</html>
